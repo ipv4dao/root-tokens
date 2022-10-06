@@ -1223,9 +1223,9 @@ contract IPv4DAO_Root_Tokens is ERC721Enumerable, Ownable {
   using Strings for uint256;
   string baseURI;
   string public baseExtension = ".json";
-  uint256 public cost = 0.50 ether;
+  uint256 public cost = 0.40 ether;
   uint256 public maxSupply = 255;
-  uint256 public maxMintAmount = 10;
+  uint256 public maxMintAmount = 25;
   bool public paused = false;
 
   constructor(
